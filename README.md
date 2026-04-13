@@ -127,7 +127,6 @@ Output is saved to `workspace/layerdiff_output/` by default. Each result include
 - Intermediate depth maps and segmentation masks
 
 > **Note:** This uses our most recent model with 23-layer body part separation (V3).
-> LayerDiff uses 30 diffusion steps and Marigold uses 4 steps by default.
 
 
 Once you have finished the layer splitting, you can further process the PSD with the scripts in `inference/scripts/heuristic_partseg.py` for depth-based or left-right stratification.
